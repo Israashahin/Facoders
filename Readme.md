@@ -5,7 +5,7 @@
 
 * _Week-1:_
 
-    [Introduction to Git and GitHUp](https://githup.com/Israashahin/Udemy-Git)
+    [Introduction to Git and GitHUp](https://github.com/Israashahin/Facoders.git)
 
  * _Week-2:_
 
