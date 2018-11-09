@@ -10,13 +10,18 @@
  * _Week-2:_
 
     Creating Markdown File
-    
+
  * _Week-3:_
-     
+
      [Introduction to Python: Number and Strings]
-     
-  
+
+
   * _Week-4:_
-  
+
       [Python BOOLEAN TYPE, IF STATEMENT AND WHILE LOOPS]
-     
+
+
+
+  * _Week-5:_
+
+      [Python Lists Function]

@@ -1,24 +1,12 @@
  # This is a guess the number game
+Game = ('Guess number from 1 to 10')
+print(Game +  ",I am thinking of a number between 1 and 10. Can you guess what it is??")
 
-yourgusses = 0
-
+yourguesses = int(input('Enter a number: '))
 number = 8
 
+while yourguesses != number:
+    yourguesses = int(input('Enter a number: '))
 
-Game = ('Guess number from 1 to 10')
-
-print(Game + ", I am thinking of a number between 1 and 10. Can you guess what it is")
-
-while yourgusses !=  8:
-    guess = input('Enter a number: ')
-    guess = int(guess)
-
-    yourgusses = yourgusses + 1;
-
-    if guess == number:
-        break
-
-if guess == number:
-    yourgusses = str(yourgusses)
-
-    print('Great you did it ')
+else:
+    print('Great you did it')
