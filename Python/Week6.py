@@ -4,23 +4,20 @@ grade_three= {'Rima': [18, 19, 18, 26, 9], 'Tala': [20, 20, 19, 29, 10], 'Lamar'
 
 def students_names(class_name):
     if class_name=='grade_one':
-        return list(grade_one.keys())
+        list1=list(grade_one.keys())
     elif class_name=='grade_two':
-        return list(grade_two.keys())
+        list1=list(grade_two.keys())
     elif class_name=='grade_three':
-        return list(grade_three.keys())
-    return;
+        list1=list(grade_three.keys())
+    return list1
 def student_score(class_name,student_name):
     if class_name=='grade_one':
         sum1=(sum(grade_one[student_name]))
-        return student_name,sum1
     elif class_name=='grade_two':
         sum1=(sum(grade_two[student_name]))
-        return student_name,sum1
     elif class_name=='grade_three':
-        sum1=(sum(grade_two[student_name]))
-        return student_name,sum1
-    return;
+        sum1=(sum(grade_three[student_name]))
+    return student_name,sum1
 def students_count(class_name):
     return len(class_name)
 

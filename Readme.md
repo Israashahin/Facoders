@@ -23,6 +23,6 @@
 
     [Python Lists Function]
 
-*_Week-6:_
+* _Week-6:_
 
     [python dictionary and user definition function]
